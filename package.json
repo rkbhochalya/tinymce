@@ -15,7 +15,8 @@
 		"node": ">=0.10.26"
 	},
 	"scripts": {
-		"build": "grunt"
+		"build": "grunt",
+		"prepare": "npm run build"
 	},
 	"devDependencies": {
 		"@ephox/bolt": "^1.6.0",
